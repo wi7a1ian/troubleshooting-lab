@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>ex_unhandled_module_managed_dll</RootNamespace>
+  </PropertyGroup>
+
+</Project>
