@@ -127,7 +127,7 @@ You do not need to be an expert in any of the tools listed below. Simply learn t
   - *View* > *Undecorate C++ Functions* to unmangle exported function names
 
 *Keywords:* crash, native, c++, platform toolset, /MD /MDd /MT /MTd run-time library, statically linked to MSVCRT.lib, static version of the run-time library
-*Similar to:* n/a \
+*Similar to:* **[Dependencies](https://github.com/lucasg/Dependencies)** (modern) \
 *Synergy with:* n/a
 
 ## Process Monitor (`procmon`) ➿📁🔌
