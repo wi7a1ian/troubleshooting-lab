@@ -42,6 +42,7 @@ You do not need to be an expert in any of the tools listed below. Simply learn t
 *Usage:*
 1. start your application which has memory leaks and keep it running
 1. run `perfmon` and delete all the current performance counters
+1. *(optional)* rclick *Performance* > *Connect to Another Computer...*
 1. rclick > *Add counters* > *Process* from the performance object and select *Private bytes* from the counter list
 1. rclick > *Add counters* > *.NET CLR memory* from the performance object and select *Bytes in all heaps* from the counter list
 1. select app from the instance list.
