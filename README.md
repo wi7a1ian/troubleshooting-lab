@@ -442,14 +442,14 @@ dotnet-counters monitor --process-id <pid> System.Runtime[cpu-usage,gc-heap-size
 *Similar to:* perfmon (older, windows only) \
 *Synergy with:* n/a
 
-## dotnet-dump 📊📝🔀➿
+## dotnet-dump, dotnet-gcdump  📊📝🔀➿
 [page](https://github.com/dotnet/diagnostics/blob/master/documentation/dotnet-dump-instructions.md) \
-*When:* To collect and analyze memory dumps without any native debugger involved. We want SOS commands to analyze crashes and the stack/heap. \
+*When:* To collect and analyze memory dumps without any native debugger involved. We want SOS commands to analyze crashes and the stack/heap. Use `dotnet gcdump` for applications running on .Net Core 3.1 or later. Use `dotnet dump` for all other variants. \
 *Usage:*
 ```
 > dotnet tool install dotnet-dump -g
-> dotnet-dump collect --process-id <pid>
-> dotnet-dump analyze ./<log>
+> dotnet dump collect --process-id <pid>
+> dotnet dump analyze ./<log>
 > clrstack
 - pe -lines
 ```
