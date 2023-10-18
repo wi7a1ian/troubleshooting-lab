@@ -459,6 +459,9 @@ dotnet-counters monitor --process-id <pid> System.Runtime[cpu-usage,gc-heap-size
 *Synergy with:* n/a
 
 # Troubleshooting Tools (Linux)
+
+[Complete List](https://www.brendangregg.com/linuxperf.html)
+
 ## Perf (`perf`) 📊📉
 [article](http://www.brendangregg.com/perf.html) \
 *When:* We need performance counters like cache-miss or branch miss-predictions. \
